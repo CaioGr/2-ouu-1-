@@ -1,0 +1,59 @@
+#include <iostream> 
+
+ using namespace std;
+
+    int caio;
+    int arthur;
+    int gil;
+    int wellington;
+
+
+  int main(){
+
+      cout << "digite 1 para 1 e 2 para 2" << endl;
+
+        cout << "caio:" << endl;
+            cin >> caio;
+
+        cout << "arthur:" << endl;
+            cin >> arthur;
+
+        cout << "gil:" << endl;
+            cin >> gil;
+
+        cout << "wellington" << endl;
+            cin >> wellington;
+
+                if(caio == 1 && arthur == 1 && gil == 1 && wellington == 2){
+                    cout << "wellington esta fora" << endl;
+                }else if(caio == 1 && arthur == 1 && gil == 2 && wellington == 1){
+                    cout << "gil esta fora" << endl;
+                }else if(caio == 1 && arthur == 2 && gil == 1 && wellington == 1){
+                    cout << "arthur esta fora" << endl;
+                }else if(caio == 2 && arthur == 1 && gil == 1 && wellington == 1){
+                    cout << "caio esta fora" << endl;
+                }else if(caio == 2 && arthur == 2 && gil == 2 && wellington == 1){
+                    cout << "wellington esta fora" << endl;
+                }else if(caio == 2 && arthur == 2 && gil == 1 && wellington == 2){
+                    cout << "gil esta fora" << endl;
+                }else if(caio == 2 && arthur == 1 && gil == 2 && wellington == 2){
+                    cout << "arthur esta fora" << endl;
+                }else if(caio == 1 && arthur == 2 && gil == 2 && wellington == 2){
+                    cout << "caio esta fora" << endl;
+                }else if(caio == 1 && arthur == 1 && gil == 2 && wellington == 2){
+                    cout << "time 1 e caio e arthur e time 2 e gil e weliington" << endl;
+                }else if(caio == 1 && arthur == 2 && gil == 1 &&  wellington ==2){
+                    cout << "time 1 e caio e gil e time 2 e wellington e arthur" << endl;
+                }else if(caio == 1 && arthur == 2 && gil == 2 && wellington == 1){
+                    cout << "time 1 e caio e wellington e time 2 e arthur e gil" << endl;
+                }else if(caio == 2 && arthur == 2 && gil == 1 && wellington == 1){
+                    cout << "time 1 e caio e arthur e time 2 e wellington e gil" << endl;
+                }else if(caio == 2 && arthur == 1 && gil == 2 && wellington == 1){
+                    cout << "time 1 e caio e gil e time 2 e wellington e arthur" << endl;
+                }else if(caio == 2 && arthur == 1 && gil == 1 && wellington == 2){
+                    cout << "time 1 e caio e wellington e time 2 e arthur e gil" << endl;
+                }else{
+                    cout <<"nao existe esse tipo de jogo ou 2 ou 1" << endl;
+                }
+
+  }
